@@ -3,27 +3,30 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "QuantumEngine",
+  "description": "TechQuantum's private engine",
   "authors": [
-    "Me!"
+    "DarkFactor",
+    "KernelFreeze",
+    "EDDxample",
+    "Kahzerx"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/QuantumEngine/QuantumEngine"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Copyright (C) 2020 TechQuantum",
+  "icon": "assets/quantumengine/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.techquantum.QuantumEngine"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "quantumengine.mixins.json"
   ],
 
   "depends": {
