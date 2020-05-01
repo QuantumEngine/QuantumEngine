@@ -21,9 +21,7 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.techquantum.QuantumEngine"
-    ]
+    "main": []
   },
   "mixins": [
     "quantumengine.mixins.json"
@@ -31,7 +29,6 @@
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
   },
   "suggests": {
