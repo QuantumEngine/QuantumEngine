@@ -4,11 +4,12 @@
   "package": "net.techquantum.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "CommandManagerMixin",
+    "TickReport_ServerTickMixin",
+    "TickReport_ServerWorldMixin"
   ],
   "client": [],
-  "server": [
-    "CommandManagerMixin"
-  ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   }
