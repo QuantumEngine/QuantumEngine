@@ -6,7 +6,8 @@
   "mixins": [
     "CommandManagerMixin",
     "TickReport_ServerTickMixin",
-    "TickReport_ServerWorldMixin"
+    "TickReport_ServerWorldMixin",
+    "ExperienceOrbMixin"
   ],
   "client": [],
   "server": [],
